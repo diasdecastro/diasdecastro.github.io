@@ -1,4 +1,4 @@
-@import url(fontawesome-all.min.css);
+@import '/assets/css/fontawesome-all.min.css';
 @import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
 
 /*
@@ -4382,7 +4382,7 @@ input, select, textarea {
 
 		}
 
-	#copyright {
+	#extra {
 		color: #ffffff;
 		position: relative;
 		color: rgba(255, 255, 255, 0.25);
@@ -4400,53 +4400,53 @@ input, select, textarea {
 		z-index: 2;
 	}
 
-		#copyright input, #copyright select, #copyright textarea {
+		#extra input, #extra select, #extra textarea {
 			color: #ffffff;
 		}
 
-		#copyright a {
+		#extra a {
 			color: #ffffff;
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
 
-			#copyright a:hover {
+			#extra a:hover {
 				border-bottom-color: transparent;
 				color: #18bfef !important;
 			}
 
-		#copyright strong, #copyright b {
+		#extra strong, #extra b {
 			color: #ffffff;
 		}
 
-		#copyright h1, #copyright h2, #copyright h3, #copyright h4, #copyright h5, #copyright h6 {
+		#extra h1, #extra h2, #extra h3, #extra h4, #extra h5, #extra h6 {
 			color: #ffffff;
 		}
 
-		#copyright blockquote {
+		#extra blockquote {
 			border-left-color: #ffffff;
 		}
 
-		#copyright code {
+		#extra code {
 			background: rgba(255, 255, 255, 0.075);
 			border-color: #ffffff;
 		}
 
-		#copyright hr {
+		#extra hr {
 			border-bottom-color: #ffffff;
 		}
 
-		#copyright a {
+		#extra a {
 			color: inherit;
 			border-bottom-color: inherit;
 		}
 
-		#copyright ul {
+		#extra ul {
 			list-style: none;
 			margin: 0;
 			padding-left: 0;
 		}
 
-			#copyright ul li {
+			#extra ul li {
 				border-left: solid 2px;
 				display: inline-block;
 				line-height: 1;
@@ -4454,7 +4454,7 @@ input, select, textarea {
 				padding-left: 1rem;
 			}
 
-				#copyright ul li:first-child {
+				#extra ul li:first-child {
 					border-left: 0;
 					margin-left: 0;
 					padding-left: 0;
@@ -4462,7 +4462,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 1280px) {
 
-			#copyright {
+			#extra {
 				margin: 4rem auto;
 			}
 
@@ -4470,14 +4470,14 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
-			#copyright ul li {
+			#extra ul li {
 				border-left: 0;
 				margin: 1rem 0 0 0;
 				padding-left: 0;
 				display: block;
 			}
 
-				#copyright ul li:first-child {
+				#extra ul li:first-child {
 					margin-top: 0;
 				}
 
@@ -4687,3 +4687,6 @@ input, select, textarea {
 		}
 
 	}
+
+
+	
