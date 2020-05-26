@@ -4688,11 +4688,27 @@ input, select, textarea {
 
 	}
 
-	.resumeePDF {
-		width : 100%;
-		height : 800px;
+	@media only screen and (max-width: 480px){
 
+		.resumeePDF {
+			width : 100%;	
+		}
 	}
+
+	@media only screen and (min-width: 481px) and (max-width: 960px){
+
+		.resumeePDF {
+			width : 100%;
+		}
+	}
+
+	@media only screen and (min-width: 961px){
+		.resumeePDF {
+			width : 100%;
+			height: 800px;
+		}
+	}
+		
 
 
 	
