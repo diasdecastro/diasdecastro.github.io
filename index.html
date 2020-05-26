@@ -48,14 +48,18 @@
 								<header class="major">
 									<span id="date"></span>
 									<script>
-										var months = ["January", "February", "March", "April", "May", "June", "July", 
-														"August", "September", "October", "November", "December"];
-										var date = new Date();
-										document.getElementById("date").innerHTML = months[date.getMonth()] + " " + date.getDay() + ", " + date.getFullYear();
+										function updateDate(){
+											var months = ["January", "February", "March", "April", "May", "June", "July", 
+															"August", "September", "October", "November", "December"];
+											var date = new Date();
+											document.getElementById("date").innerHTML = months[date.getMonth()] + " " + date.getDate() + ", " + date.getFullYear();
+											setTimeout(updateDate, 1000);							
+										}
+										updateDate();
 									</script>
 									<h2><a href="resumee.html">My name is <br />
 										Cristian Dias de Castro</a></h2>
-									<p>I strongly believe that Code is a powerful tool that should be used to improve peoples lives and to solve real problems.<br />
+									<p>I strongly believe that Code is a powerful tool that should be used to improve peoples lives and to solve real world problems.<br />
 									For that reason I've been building my repertoire of skills to become a Software Developer and help improve the technologies that surrounds us.
 									That way I can have a positive impact on society.</p>
 								</header>
